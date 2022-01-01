@@ -1,5 +1,5 @@
 let test#scala#patterns = {
-  \ 'test':      ['\v^\s*test\((.*)\)', '\v^\s*("[^"]*") in.*$', '\v^\s*%(it|"[^"]*")\sshould\s("[^"]*")'],
+  \ 'test':      ['\v^\s*test\((.*)\)', '\v^\s*("[^"]*") in.*$', '\v^\s*%(it|"[^"]*")\sshould\s("[^"]*")', '\v^\s*it\(("[^"]*")\)', '\v^\s*"[^"]*\sshould\s+("[^"]*"])\s+in.*$'],
   \ 'namespace': [],
 \}
 
